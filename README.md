@@ -45,12 +45,14 @@ of crawler.
 - Spreadsheet should not contain empty lines because the first empty line is used
   by 'google-spreadsheet' package to indicate the end of the document.
 
-### Step 4 - Configure act's input as JSON with following fields
+### Step 4 - Configure Finish Webhook data of your crawler to be a JSON with following fields
 
-- `googleCredentialsEmail` (from Step 2)
-- `googleCredentialsPrivateKey` (from Step 2)
-- `spreadsheetKey` (you can find this in spreadsheet url)
-- `spreadsheetPage` (most likely = 0)
+|Option|Type|Description|
+-------|----|-----------|
+|`googleCredentialsEmail`|String|From step 2|
+|`googleCredentialsPrivateKey`|Array|From step 2|
+|`spreadsheetKey`|String|You can find this in spreadsheet url|
+|`spreadsheetPage`|Number|Most likely = 0|
 
 so it will looks something like:
 
