@@ -50,7 +50,7 @@ of crawler.
 |Option|Type|Description|
 -------|----|-----------|
 |`googleCredentialsEmail`|String|From step 2|
-|`googleCredentialsPrivateKey`|Array|From step 2|
+|`googleCredentialsPrivateKey`|Array|Key that you obtain in step 2 with new lines replaced by `\n`|
 |`spreadsheetKey`|String|You can find this in spreadsheet url|
 |`spreadsheetPage`|Number|Most likely = 0|
 
@@ -58,9 +58,9 @@ so it will looks something like:
 
 ```json
 {
-    "googleCredentialsEmail": "some.mail@domain.com",
-    "googleCredentialsPrivateKey": "kjnkjdDMNLKj4oi===",
-    "spreadsheetKey": "kjndDopowmeEk390dDskpd",
+    "googleCredentialsEmail": "9898798666-compute@developer.gserviceaccount.com",
+    "googleCredentialsPrivateKey": "firstline\nsecondline\nthirdline\n====",
+    "spreadsheetKey": "1tu7V4FsoYCpkCvQPByHTWOdFQ9bs_zag9suDwrLg20w",
     "spreadsheetPage": 0
 }
 ```
