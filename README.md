@@ -1,4 +1,4 @@
-# js-apify-crawler-to-spreadsheet
+# Crawler to Spreadsheet
 
 This crawler takes last crawler run result and stores new items in Google Docs Spreadsheet.
 New items are identified based on md5 hash of that record. It's invoked as finish webhook
