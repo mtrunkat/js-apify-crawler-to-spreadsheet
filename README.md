@@ -10,7 +10,7 @@ of crawler.
 
 ### Step 1 - Create a crawler
 
-> Set Run Act Webhook of this act as Finish Webhook URL of this crawler. This webhook
+- Set Run Act Webhook of this act as Finish Webhook URL of this crawler. This webhook
   is in form `https://api.apifier.com/v2/acts/mtrunkat~crawler-to-spreadsheet/runs?token=[YOUR_API_TOKEN]`
 
 ### Step 2 - Google credentions configuration
