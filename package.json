@@ -1,0 +1,26 @@
+{
+  "name": "js-apify-crawler-to-spreadsheet",
+  "version": "1.0.0",
+  "description": "This crawler takes last crawler run result and stores new items in Google Docs Spreadsheet.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtrunkat/js-apify-crawler-to-spreadsheet.git"
+  },
+  "author": "Marek Trunkát",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtrunkat/js-apify-crawler-to-spreadsheet/issues"
+  },
+  "homepage": "https://github.com/mtrunkat/js-apify-crawler-to-spreadsheet#readme",
+  "dependencies": {
+    "apify": "^0.4.32",
+    "bluebird": "^3.5.1",
+    "google-spreadsheet": "^2.0.4",
+    "md5": "^2.2.1",
+    "underscore": "^1.8.3"
+  }
+}
