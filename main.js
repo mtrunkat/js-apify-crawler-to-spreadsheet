@@ -50,6 +50,13 @@ Apify.main(async () => {
     const oldHashes = _.pluck(oldData, 'hash');
 
     const promises = newData
+        // Filter out rows with an error
+        .filter((row) => {
+            if (!row.errorInfo) return true;
+            
+            console.log('Skipping error line:');
+            console.log(row);
+        })
         // Add hash.
         .map(row => _.extend(row, { hash: hashRow(row) }))
         // Filter out already inserted items.
